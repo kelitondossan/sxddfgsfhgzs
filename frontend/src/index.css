@@ -1,0 +1,82 @@
+*body{
+  overflow: hidden;
+  background-color: #df8585;
+}
+.App {
+  background: linear-gradient(45deg, rgba(24, 3, 3, 0.904), rgba(192, 11, 11, 0.514));
+  
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+.board {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.column {
+  background: linear-gradient(45deg, rgba(24, 3, 3, 0.904), rgba(192, 11, 11, 0.514));
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  min-width: 150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: linear-gradient(45deg, rgba(24, 3, 3, 0.904), rgba(192, 11, 11, 0.514));
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.actions {
+  margin-top: 5px;
+}
+
+button {
+  background-color: #814e4e;
+  border-radius: 20%;
+  margin-right: 5px;
+}
+/* Estilos para os botões */
+.greenButton {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.yellowButton {
+  background-color: rgb(139, 141, 6);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.redButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
